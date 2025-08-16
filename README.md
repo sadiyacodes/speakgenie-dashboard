@@ -1,6 +1,6 @@
 # 🏫 School Dashboard — Frontend Assignment
 
-**Live (Deployed) Link:** [speakgenie-dashboard]()
+**Live (Deployed) Link:** [speakgenie-dashboard](https://speakgenie-dashboard-11.vercel.app/)
 
 
 A responsive school dashboard showcasing **leaderboard, charts, and analytics for student performance and trends**. Built as a frontend-only assignment.
@@ -51,7 +51,7 @@ npm run build
 ---
 
 ## 🚀 Deployment 
-[click here]()
+[click here](https://speakgenie-dashboard-11.vercel.app/)
 
 
 ## 🧪 Scripts (package.json)
