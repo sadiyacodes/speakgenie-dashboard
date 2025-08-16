@@ -1,0 +1,23 @@
+import React from "react";
+import MetricsCards from "./MetricsCards";
+import ClassEnrollmentChart from "./ClassEnrollment";
+import PerformanceDistribution from "./PerformanceDistribution";
+import TopLeaderboard from "./TopLeaderboard";
+
+export default function DashboardOverview({ data }) {
+  return (
+    <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+      <div className="col-span-full">
+        <MetricsCards metrics={data.dashboard_overview} />
+      </div>
+      <ClassEnrollmentChart data={data.class_enrollment} />
+      <PerformanceDistribution data={data.performance_distribution} />
+      <div className="col-span-full">
+        <TopLeaderboard students={data.leaderboard} />
+      </div>
+      <div className="col-span-full text-center mt-8 text-gray-500">
+        CBSE Board Last updated: 12/08/2025, 15:46:57
+      </div>
+    </div>
+  );
+}
