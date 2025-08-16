@@ -3,7 +3,7 @@ import MetricsCards from "./MetricsCards";
 import ClassEnrollmentChart from "./ClassEnrollment";
 import PerformanceDistribution from "./PerformanceDistribution";
 import TopLeaderboard from "./TopLeaderboard";
-
+import AchievementsGrid from "./AchievementGrid";
 export default function DashboardOverview({ data }) {
   return (
     <div className="grid gap-2 md:grid-cols-2 grid-cols-1 ">
@@ -18,9 +18,9 @@ export default function DashboardOverview({ data }) {
       <div className="col-span-full">
         <TopLeaderboard students={data.leaderboard} />
       </div>
-      {/* <div className="col-span-full text-center mt-8 text-gray-500">
-        CBSE Board Last updated: 12/08/2025, 15:46:57
-      </div> */}
+      <div className="col-span-full">
+        <AchievementsGrid achievements={data.achievements} />
+      </div>
     </div>
   );
 }

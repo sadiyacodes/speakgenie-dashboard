@@ -4,7 +4,7 @@ export const dashboardData = {
     admin: {
       name: "School Admin",
       email: "admin@example.com",
-      phone: "+1-555-0123",
+      phone: "+91-8282828282",
       avatar: "G",
     },
     board: "CBSE Board",
@@ -81,7 +81,7 @@ export const dashboardData = {
     },
     {
       rank: 2,
-      name: "Hvff",
+      name: "Harry st",
       class: "Class 7",
       points: 295,
       accuracy: 94,
@@ -91,7 +91,7 @@ export const dashboardData = {
     },
     {
       rank: 3,
-      name: "Flower Girl",
+      name: "Florence",
       class: "Class 6",
       points: 190,
       accuracy: 93,
@@ -101,7 +101,7 @@ export const dashboardData = {
     },
     {
       rank: 4,
-      name: "12 June Child Test",
+      name: "Sara Jessica",
       class: "Class 5",
       points: 165,
       accuracy: 92,
@@ -111,7 +111,7 @@ export const dashboardData = {
     },
     {
       rank: 5,
-      name: "Hcdff",
+      name: "Miranda Hobbes",
       class: "Class 4",
       points: 160,
       accuracy: 91,
@@ -121,7 +121,7 @@ export const dashboardData = {
     },
     {
       rank: 6,
-      name: "Eva",
+      name: "Eva Slice",
       class: "Class 3",
       points: 145,
       accuracy: 90,
@@ -203,7 +203,7 @@ export const dashboardData = {
     },
     {
       id: 2,
-      name: "Hvff",
+      name: "Harry st",
       class: "Class 7",
       accuracy: 94,
       points: 295,
@@ -211,7 +211,7 @@ export const dashboardData = {
     },
     {
       id: 3,
-      name: "Flower Girl",
+      name: "Florence",
       class: "Class 6",
       accuracy: 93,
       points: 190,
@@ -219,7 +219,7 @@ export const dashboardData = {
     },
     {
       id: 4,
-      name: "12 June Child Test",
+      name: "Sara Jessica",
       class: "Class 5",
       accuracy: 92,
       points: 165,
@@ -227,7 +227,7 @@ export const dashboardData = {
     },
     {
       id: 5,
-      name: "Hcdff",
+      name: "Miranda Hobbes",
       class: "Class 4",
       accuracy: 91,
       points: 160,
@@ -235,7 +235,7 @@ export const dashboardData = {
     },
     {
       id: 6,
-      name: "Eva",
+      name: "Eva Slice",
       class: "Class 3",
       accuracy: 90,
       points: 145,
@@ -338,10 +338,20 @@ export const dashboardData = {
   },
 
   // ------------------ Achievements ------------------
-  achievements: {
-    top_scorer: { name: "Ahan Kumar", points: 830 },
-    longest_streak: { name: "Ahan Kumar", days: 15 },
-    most_lessons: { name: "Ahan Kumar", count: 68 },
-    highest_accuracy: { name: "Ahan Kumar", percentage: 96 },
-  },
+  // mockapi/achievements.js
+  achievements: [
+    { type: "Top Scorer", name: "Ahan Kumar", emoji: "🏆", context: "830 pts" },
+    {
+      type: "Longest Streak",
+      name: "Florence",
+      emoji: "🔥",
+      context: "15 days",
+    },
+    {
+      type: "Most Lessons",
+      name: "Eva Slice",
+      emoji: "📘",
+      context: "68 lessons",
+    },
+  ],
 };
