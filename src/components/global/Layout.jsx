@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Header from "./Header";
-import SideBar from "./SideBar";
+import SideBarComponent from "./SideBarComponent";
 
 export default function Layout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -22,7 +22,7 @@ export default function Layout({ children }) {
 
   return (
     <div className="min-h-screen flex bg-gray-50 relative">
-      <SideBar
+      <SideBarComponent
         isMobile={isMobile}
         isOpen={sidebarOpen}
         onClose={closeSidebar}
