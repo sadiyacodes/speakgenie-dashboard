@@ -2,7 +2,7 @@ import { Menu, Bell } from "lucide-react";
 
 export default function Header({ onMenuClick, isMobile }) {
   return (
-    <header className="flex justify-between items-center px-8 py-4 bg-white border-b border-gray-200 shadow-sm">
+    <header className="flex justify-between items-center px-8 py-4 bg-gray-50 border-b border-gray-200 shadow-sm">
       <div className="flex items-center gap-6">
         {isMobile && (
           <button
@@ -13,10 +13,12 @@ export default function Header({ onMenuClick, isMobile }) {
           </button>
         )}
         <div>
-          <h1 className="font-bold text-2xl text-gray-900">
-            Welcome back, School Admin!
+          <h1 className="font-bold text-3xl text-primary">
+            GreenWood Elementary School
           </h1>
-          <p className="text-gray-500">Here's your school's overview.</p>
+          <p className="text-gray-500">
+            Welcome back School Admin! Here's your school's overview.
+          </p>
         </div>
       </div>
       <div className="flex items-center gap-8">

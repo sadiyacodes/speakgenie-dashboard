@@ -6,12 +6,13 @@ import TopLeaderboard from "./TopLeaderboard";
 
 export default function DashboardOverview({ data }) {
   return (
-    <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+    <div className="grid gap-2 md:grid-cols-2 grid-cols-1 ">
       <div className="col-span-full">
         <MetricsCards metrics={data.dashboard_overview} />
       </div>
 
       <ClassEnrollmentChart data={data.class_enrollment} />
+
       <PerformanceDistribution data={data.performance_distribution} />
 
       <div className="col-span-full">

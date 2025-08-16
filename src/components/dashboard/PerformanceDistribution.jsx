@@ -17,8 +17,8 @@ export default function PerformanceDistribution({ data }) {
   };
 
   return (
-    <div className="bg-white border border-gray-200 rounded-xl p-8 shadow-md">
-      <h3 className="text-xl font-bold text-gray-900 mb-1">
+    <div className="bg-white border border-gray-200 rounded-xl p-8  shadow-md">
+      <h3 className="text-xl font-bold text-primary mb-1">
         Performance Distribution
       </h3>
       <p className="text-gray-600 text-sm mb-5">
@@ -29,21 +29,28 @@ export default function PerformanceDistribution({ data }) {
           <Pie
             data={data}
             cx="50%"
-            cy="50%"
+            cy="100%"
             labelLine={false}
-            outerRadius={80}
+            outerRadius={60}
             fill="#8884d8"
             dataKey="percentage"
-            label={({ category, percent }) =>
-              `${category}: ${(percent * 100).toFixed(0)}%`
-            }
+            nameKey="category"
+            // label={({ category, percent }) =>
+            //   `${category}: ${(percent * 100).toFixed(0)}%`
+            // }
           >
             {data.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={COLORS[entry.category]} />
             ))}
           </Pie>
           <Tooltip />
-          <Legend />
+          <Legend
+            layout="vertical"
+            verticalAlign="bottom"
+            align="bottom"
+            iconType="circle"
+            iconSize="8"
+          />
         </PieChart>
       </ResponsiveContainer>
     </div>

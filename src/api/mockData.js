@@ -46,10 +46,25 @@ export const dashboardData = {
 
   // ------------------ Performance Distribution ------------------
   performance_distribution: [
-    { category: "Excellent (90-100%)", percentage: 20, color: "#4CAF50" },
-    { category: "Good (80-89%)", percentage: 45, color: "#2196F3" },
-    { category: "Average (70-79%)", percentage: 25, color: "#FF9800" },
-    { category: "Needs Improvement", percentage: 10, color: "#f44336" },
+    {
+      index: 0,
+      category: "Excellent (90-100%)",
+      percentage: 20,
+      color: "#4CAF50",
+    },
+    { index: 1, category: "Good (80-89%)", percentage: 45, color: "#2196F3" },
+    {
+      index: 2,
+      category: "Average (70-79%)",
+      percentage: 25,
+      color: "#FF9800",
+    },
+    {
+      index: 3,
+      category: "Needs Improvement",
+      percentage: 10,
+      color: "#f44336",
+    },
   ],
 
   // ------------------ Leaderboard ------------------
