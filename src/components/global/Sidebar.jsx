@@ -38,6 +38,7 @@ export default function SideBar({ isOpen, isMobile, onClose }) {
         </div>
         <div>
           <h3 className="text-white font-semibold">School Admin</h3>
+
           <p className="text-indigo-100 text-xs">Greenwood Elementary</p>
         </div>
       </div>
