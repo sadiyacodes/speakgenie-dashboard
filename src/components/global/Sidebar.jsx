@@ -16,7 +16,7 @@ const nav = [
   { path: "/settings", icon: Settings, label: "Settings" },
 ];
 
-export default function Sidebar({ isOpen, isMobile, onClose }) {
+export default function SideBar({ isOpen, isMobile, onClose }) {
   const { pathname } = useLocation();
   return (
     <aside
