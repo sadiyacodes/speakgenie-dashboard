@@ -15,19 +15,19 @@ export const dashboardData = {
   dashboard_overview: {
     total_students: {
       count: 245,
-      growth: "+12% from last month",
+      growth: "+12%",
     },
     total_classes: {
       count: 8,
-      growth: "+8% from last month",
+      growth: "+8%",
     },
     avg_performance: {
       percentage: 86.2,
-      growth: "+5% from last month",
+      growth: "+5%",
     },
     top_performer: {
       name: "Ahan K.",
-      class: "Class 8",
+      // class: "Class 8",
       points: 830,
     },
   },

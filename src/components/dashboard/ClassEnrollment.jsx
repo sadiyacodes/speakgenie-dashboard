@@ -11,7 +11,7 @@ import {
 
 export default function ClassEnrollmentChart({ data }) {
   return (
-    <div className="bg-white border border-gray-200 rounded-xl p-8 shadow-md">
+    <div className="bg-white border border-gray-200 rounded-xl  w-[500] p-8 shadow-md">
       <h3 className="text-xl font-bold text-gray-900 mb-1">
         Class-wise Student Enrollment
       </h3>

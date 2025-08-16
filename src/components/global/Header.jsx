@@ -1,4 +1,4 @@
-import { Menu, Bell, Search } from "lucide-react";
+import { Menu, Bell } from "lucide-react";
 
 export default function Header({ onMenuClick, isMobile }) {
   return (
@@ -20,14 +20,6 @@ export default function Header({ onMenuClick, isMobile }) {
         </div>
       </div>
       <div className="flex items-center gap-8">
-        <div className="relative flex items-center">
-          <Search size={20} className="absolute left-2.5 text-gray-400" />
-          <input
-            type="text"
-            placeholder="Search..."
-            className="pl-8 pr-3 py-2 rounded-md border border-gray-300 outline-none bg-white w-52 focus:border-indigo-600"
-          />
-        </div>
         <button className="relative p-2 bg-transparent border-none text-indigo-600">
           <Bell size={20} />
           <span className="absolute top-0 right-0 bg-red-500 text-white text-xs font-bold px-1 rounded-full">
