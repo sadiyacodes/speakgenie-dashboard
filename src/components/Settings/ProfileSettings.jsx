@@ -17,7 +17,7 @@ export default function ProfileSettings({ profile }) {
         <input
           id="full_name"
           type="text"
-          defaultValue={profile.full_name}
+          placeholder="Admin User"
           className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring focus:ring-indigo-400"
         />
       </label>
@@ -32,7 +32,7 @@ export default function ProfileSettings({ profile }) {
         <input
           id="email"
           type="email"
-          defaultValue={profile.email}
+          placeholder="admin@example.com"
           className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring focus:ring-indigo-400"
         />
       </label>
@@ -47,7 +47,7 @@ export default function ProfileSettings({ profile }) {
         <input
           id="phone"
           type="tel"
-          defaultValue={profile.phone}
+          placeholder="+91-XXXXXXXXXX"
           className="border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring focus:ring-indigo-400"
         />
       </label>
