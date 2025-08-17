@@ -42,7 +42,7 @@ export default function LeaderboardTable({ students }) {
           <tbody>
             {filteredStudents.map((student) => (
               <tr
-                key={student.id}
+                key={student.rank}
                 className="hover:bg-gray-50 odd:bg-white even:bg-gray-50"
               >
                 <td className="p-3 border-b border-gray-300 font-semibold text-indigo-700">

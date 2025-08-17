@@ -354,4 +354,22 @@ export const dashboardData = {
       context: "68 lessons",
     },
   ],
+  leaderboard_achievements: {
+    top_scorer: {
+      name: "Ahan Kumar",
+      points: 830,
+    },
+    longest_streak: {
+      name: "Ahan Kumar",
+      days: 15,
+    },
+    most_lessons: {
+      name: "Ahan Kumar",
+      count: 68,
+    },
+    highest_accuracy: {
+      name: "Ahan Kumar",
+      percentage: 96,
+    },
+  },
 };

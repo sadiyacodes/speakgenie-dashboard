@@ -1,9 +1,11 @@
 import React from "react";
-import MetricsCards from "./MetricsCards";
-import ClassEnrollmentChart from "./ClassEnrollment";
-import PerformanceDistribution from "./PerformanceDistribution";
-import TopLeaderboard from "./TopLeaderboard";
-import AchievementsGrid from "./AchievementGrid";
+import MetricsCards from "../MetricsCards";
+import ClassEnrollmentChart from "../ClassEnrollment";
+import PerformanceDistribution from "../PerformanceDistribution";
+import TopLeaderboard from "../TopLeaderboard";
+import AchievementsGrid from "../AchievementGrid";
+import AllStudents from "../AllStudents";
+
 export default function DashboardOverview({ data }) {
   return (
     <div className="grid gap-2 md:grid-cols-2 grid-cols-1 ">
@@ -20,6 +22,9 @@ export default function DashboardOverview({ data }) {
       </div>
       <div className="col-span-full">
         <AchievementsGrid achievements={data.achievements} />
+      </div>
+      <div className="col-span-full">
+        <AllStudents students={data.all_students} />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/global/Layout";
-import DashboardOverview from "./components/dashboard/DashboardOverview";
+import DashboardOverview from "./components/dashboard/page/DashboardOverview";
 import LeaderboardPage from "./components/Leaderboard/LeaderboardPage";
 import StudentsPage from "./components/students/StudentsPage";
 import AnalyticsPage from "./components/analytics/AnalyticsPage";
@@ -23,7 +23,7 @@ function App() {
           element={
             <LeaderboardPage
               leaderboard={dashboardData.leaderboard}
-              achievements={dashboardData.achievements}
+              achievements={dashboardData.leaderboard_achievements}
             />
           }
         />

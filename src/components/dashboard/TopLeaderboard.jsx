@@ -2,7 +2,7 @@ import LeaderboardCard from "./LeaderboardCard";
 
 export default function TopLeaderboard({ students }) {
   return (
-    <div className="bg-white border border-gray-200 rounded-xl p-8 shadow">
+    <div className="bg-white border mt-4 border-gray-200 rounded-xl p-8 shadow">
       <h3 className="text-lg font-bold text-gray-900 mb-4">
         School Leaderboard - Top 10 Champions
       </h3>
