@@ -77,7 +77,7 @@ export const dashboardData = {
       accuracy: 96,
       streak: 15,
       lessons: 68,
-      avatar: "HV",
+      avatar: "AK",
     },
     {
       rank: 2,
@@ -87,7 +87,7 @@ export const dashboardData = {
       accuracy: 94,
       streak: 12,
       lessons: 45,
-      avatar: "H",
+      avatar: "HS",
     },
     {
       rank: 3,
@@ -97,7 +97,7 @@ export const dashboardData = {
       accuracy: 93,
       streak: 8,
       lessons: 38,
-      avatar: "FG",
+      avatar: "F",
     },
     {
       rank: 4,
@@ -107,7 +107,7 @@ export const dashboardData = {
       accuracy: 92,
       streak: 6,
       lessons: 32,
-      avatar: "JC",
+      avatar: "JS",
     },
     {
       rank: 5,
@@ -117,7 +117,7 @@ export const dashboardData = {
       accuracy: 91,
       streak: 5,
       lessons: 30,
-      avatar: "H",
+      avatar: "MH",
     },
     {
       rank: 6,
@@ -127,7 +127,7 @@ export const dashboardData = {
       accuracy: 90,
       streak: 4,
       lessons: 28,
-      avatar: "E",
+      avatar: "ES",
     },
     {
       rank: 7,
