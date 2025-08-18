@@ -77,7 +77,7 @@ export const dashboardData = {
       accuracy: 96,
       streak: 15,
       lessons: 68,
-      avatar: "AK",
+      avatar: "https://randomuser.me/api/portraits/men/32.jpg",
     },
     {
       rank: 2,
@@ -87,7 +87,7 @@ export const dashboardData = {
       accuracy: 94,
       streak: 12,
       lessons: 45,
-      avatar: "HS",
+      avatar: "https://randomuser.me/api/portraits/men/33.jpg",
     },
     {
       rank: 3,
@@ -97,7 +97,7 @@ export const dashboardData = {
       accuracy: 93,
       streak: 8,
       lessons: 38,
-      avatar: "F",
+      avatar: "https://randomuser.me/api/portraits/women/32.jpg",
     },
     {
       rank: 4,
@@ -107,7 +107,7 @@ export const dashboardData = {
       accuracy: 92,
       streak: 6,
       lessons: 32,
-      avatar: "JS",
+      avatar: "https://randomuser.me/api/portraits/women/30.jpg",
     },
     {
       rank: 5,
@@ -117,7 +117,7 @@ export const dashboardData = {
       accuracy: 91,
       streak: 5,
       lessons: 30,
-      avatar: "MH",
+      avatar: "https://randomuser.me/api/portraits/women/40.jpg",
     },
     {
       rank: 6,
@@ -127,7 +127,7 @@ export const dashboardData = {
       accuracy: 90,
       streak: 4,
       lessons: 28,
-      avatar: "ES",
+      avatar: "https://randomuser.me/api/portraits/women/42.jpg",
     },
     {
       rank: 7,
@@ -137,7 +137,7 @@ export const dashboardData = {
       accuracy: 89,
       streak: 7,
       lessons: 26,
-      avatar: "SK",
+      avatar: "https://randomuser.me/api/portraits/men/44.jpg",
     },
     {
       rank: 8,
@@ -147,7 +147,7 @@ export const dashboardData = {
       accuracy: 88,
       streak: 3,
       lessons: 24,
-      avatar: "JW",
+      avatar: "https://randomuser.me/api/portraits/men/46.jpg",
     },
     {
       rank: 9,
@@ -157,7 +157,7 @@ export const dashboardData = {
       accuracy: 87,
       streak: 9,
       lessons: 22,
-      avatar: "OD",
+      avatar: "https://randomuser.me/api/portraits/women/47.jpg",
     },
     {
       rank: 10,
@@ -167,7 +167,7 @@ export const dashboardData = {
       accuracy: 86,
       streak: 2,
       lessons: 20,
-      avatar: "LG",
+      avatar: "https://randomuser.me/api/portraits/men/48.jpg",
     },
     {
       rank: 11,
@@ -177,7 +177,7 @@ export const dashboardData = {
       accuracy: 85,
       streak: 3,
       lessons: 19,
-      avatar: "AT",
+      avatar: "https://randomuser.me/api/portraits/men/50.jpg",
     },
     {
       rank: 12,
@@ -187,7 +187,7 @@ export const dashboardData = {
       accuracy: 84,
       streak: 2,
       lessons: 18,
-      avatar: "MS",
+      avatar: "https://randomuser.me/api/portraits/women/53.jpg",
     },
   ],
 
@@ -199,7 +199,7 @@ export const dashboardData = {
       class: "Class 8",
       accuracy: 96,
       points: 830,
-      avatar: "HV",
+      avatar: "https://randomuser.me/api/portraits/men/32.jpg",
     },
     {
       id: 2,
@@ -207,7 +207,7 @@ export const dashboardData = {
       class: "Class 7",
       accuracy: 94,
       points: 295,
-      avatar: "H",
+      avatar: "https://randomuser.me/api/portraits/men/33.jpg",
     },
     {
       id: 3,
@@ -215,7 +215,7 @@ export const dashboardData = {
       class: "Class 6",
       accuracy: 93,
       points: 190,
-      avatar: "FG",
+      avatar: "https://randomuser.me/api/portraits/women/32.jpg",
     },
     {
       id: 4,
@@ -223,7 +223,7 @@ export const dashboardData = {
       class: "Class 5",
       accuracy: 92,
       points: 165,
-      avatar: "JC",
+      avatar: "https://randomuser.me/api/portraits/women/30.jpg",
     },
     {
       id: 5,
@@ -231,7 +231,7 @@ export const dashboardData = {
       class: "Class 4",
       accuracy: 91,
       points: 160,
-      avatar: "H",
+      avatar: "https://randomuser.me/api/portraits/women/40.jpg",
     },
     {
       id: 6,
@@ -239,7 +239,7 @@ export const dashboardData = {
       class: "Class 3",
       accuracy: 90,
       points: 145,
-      avatar: "E",
+      avatar: "https://randomuser.me/api/portraits/women/42.jpg",
     },
     {
       id: 7,
@@ -247,7 +247,7 @@ export const dashboardData = {
       class: "Class 2",
       accuracy: 89,
       points: 138,
-      avatar: "SK",
+      avatar: "https://randomuser.me/api/portraits/men/44.jpg",
     },
     {
       id: 8,
@@ -255,7 +255,7 @@ export const dashboardData = {
       class: "Class 6",
       accuracy: 88,
       points: 132,
-      avatar: "JW",
+      avatar: "https://randomuser.me/api/portraits/men/46.jpg",
     },
     {
       id: 9,
@@ -263,7 +263,7 @@ export const dashboardData = {
       class: "Class 5",
       accuracy: 87,
       points: 128,
-      avatar: "OD",
+      avatar: "https://randomuser.me/api/portraits/women/47.jpg",
     },
     {
       id: 10,
@@ -271,7 +271,7 @@ export const dashboardData = {
       class: "Class 1",
       accuracy: 86,
       points: 120,
-      avatar: "LG",
+      avatar: "https://randomuser.me/api/portraits/men/48.jpg",
     },
     {
       id: 11,
@@ -279,7 +279,7 @@ export const dashboardData = {
       class: "Class 3",
       accuracy: 85,
       points: 100,
-      avatar: "AM",
+      avatar: "https://randomuser.me/api/portraits/men/50.jpg",
     },
     {
       id: 12,
@@ -287,7 +287,7 @@ export const dashboardData = {
       class: "Class 4",
       accuracy: 83,
       points: 95,
-      avatar: "NT",
+      avatar: "https://randomuser.me/api/portraits/women/53.jpg",
     },
   ],
 

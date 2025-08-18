@@ -16,8 +16,19 @@ const StudentCard = ({ student }) => {
       {/* Top Row */}
       <div className="flex items-center gap-3">
         {/* Avatar */}
-        <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-lg font-bold">
+        {/* <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-lg font-bold">
           {avatar}
+        </div> */}
+        <div className="w-12 h-12 rounded-full overflow-hidden bg-gray-200 flex items-center justify-center shadow">
+          {avatar ? (
+            <img
+              src={avatar}
+              alt="profile"
+              className="w-full h-full object-cover"
+            />
+          ) : (
+            <span className="text-lg font-bold text-gray-600">U</span> // fallback letter if no avatar
+          )}
         </div>
 
         {/* Name + Class */}

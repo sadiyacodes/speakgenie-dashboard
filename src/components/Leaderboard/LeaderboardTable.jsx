@@ -48,8 +48,19 @@ export default function LeaderboardTable({ students }) {
                     ? getIcon(student.rank)
                     : `#${student.rank}`}
                 </div>
-                <div className="w-10 h-10 bg-indigo-600 text-white flex items-center justify-center rounded-full font-bold">
+                {/* <div className="w-10 h-10 bg-indigo-600 text-white flex items-center justify-center rounded-full font-bold">
                   {student.avatar}
+                </div> */}
+                <div className="w-10 h-10 rounded-full overflow-hidden bg-indigo-600 flex items-center justify-center font-bold shadow">
+                  {student.avatar ? (
+                    <img
+                      src={student.avatar}
+                      alt={student.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <span className="text-white">{student.name.charAt(0)}</span>
+                  )}
                 </div>
               </div>
               <div>

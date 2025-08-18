@@ -33,8 +33,21 @@ export default function ChampionsPodium({ champions }) {
                 className="-mt-16 transform -translate-y-1/2"
                 style={{ left: `calc(50% + ${i * 120 - 120}px)` }}
               >
-                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center text-indigo-900 font-bold text-2xl">
+                {/* <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center text-indigo-900 font-bold text-2xl">
                   {champion.avatar}
+                </div> */}
+                <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center overflow-hidden shadow">
+                  {champion.avatar ? (
+                    <img
+                      src={champion.avatar}
+                      alt={champion.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <span className="text-indigo-900 font-bold text-2xl">
+                      {champion.name.charAt(0)}
+                    </span>
+                  )}
                 </div>
               </div>
               <div className="text-4xl font-extrabold mb-4 text-indigo-900">

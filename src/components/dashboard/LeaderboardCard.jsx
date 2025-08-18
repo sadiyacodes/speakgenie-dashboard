@@ -29,8 +29,15 @@ const LeaderboardCard = ({ student }) => {
       </div>
 
       {/* Avatar */}
-      <div className="w-16 h-16 rounded-full bg-gradient-to-r from-blue-300 to-yellow-300 flex items-center justify-center text-xl font-semibold text-white shadow-md">
+      {/* <div className="w-16 h-16 rounded-full bg-gradient-to-r from-blue-300 to-yellow-300 flex items-center justify-center text-xl font-semibold text-white shadow-md">
         {student.avatar}
+      </div> */}
+      <div className="w-16 h-16 rounded-full overflow-hidden shadow-md">
+        <img
+          src={student.avatar}
+          alt={student.name}
+          className="w-full h-full object-cover"
+        />
       </div>
 
       {/* Name & Class */}
