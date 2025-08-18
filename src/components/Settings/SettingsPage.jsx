@@ -1,6 +1,7 @@
 import ProfileSettings from "./ProfileSettings";
 import SystemSettings from "./SystemSettings";
 import NotificationSettings from "./NotificationSettings";
+import DataManagement from "./DataManagement";
 
 export default function SettingsPage({ settings }) {
   return (
@@ -17,8 +18,9 @@ export default function SettingsPage({ settings }) {
         <SystemSettings system={settings.system} />
       </div>
 
-      <div>
+      <div className="grid gap-12 lg:grid-cols-2">
         <NotificationSettings notifications={settings.notifications} />
+        <DataManagement />
       </div>
     </div>
   );

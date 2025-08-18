@@ -290,6 +290,7 @@ export const dashboardData = {
       avatar: "https://randomuser.me/api/portraits/women/53.jpg",
     },
   ],
+  //------engagement trends----------------------
 
   // ------------------ Analytics ------------------
   analytics: {
@@ -299,20 +300,34 @@ export const dashboardData = {
     active_students: { value: 1156, growth: "+5% from last month" },
 
     performance_by_skill: [
-      { skill: "Vocabulary", percentage: 82, improvement: "+5%" },
-      { skill: "Grammar", percentage: 78, improvement: "+8%" },
-      { skill: "Pronunciation", percentage: 76, improvement: "+12%" },
-      { skill: "Listening", percentage: 85, improvement: "+3%" },
-      { skill: "Speaking", percentage: 74, improvement: "+15%" },
+      { skill: "Vocabulary", percentage: 82, improvement: 5 },
+      { skill: "Grammar", percentage: 78, improvement: 8 },
+      { skill: "Pronunciation", percentage: 76, improvement: 12 },
+      { skill: "Listening", percentage: 85, improvement: 3 },
+      { skill: "Speaking", percentage: 74, improvement: 15 },
     ],
-
     engagement_trends: [
-      { month: "Jan", hours: 45 },
-      { month: "Feb", hours: 52 },
-      { month: "Mar", hours: 48 },
-      { month: "Apr", hours: 55 },
-      { month: "May", hours: 60 },
-      { month: "Jun", hours: 58 },
+      { month: "Jan", study: 45, practice: 30 },
+      { month: "Feb", study: 52, practice: 35 },
+      { month: "Mar", study: 48, practice: 32 },
+      { month: "Apr", study: 55, practice: 40 },
+      { month: "May", study: 60, practice: 42 },
+    ],
+    performanceData: [
+      {
+        index: 0,
+        category: "Excellent (85-100%)",
+        percentage: 35,
+        color: "#f44336",
+      },
+      { index: 1, category: "Good (70-84%)", percentage: 45, color: "#2196F3" },
+
+      {
+        index: 3,
+        category: "Needs Improvement(<70)",
+        percentage: 20,
+        color: "#F04444",
+      },
     ],
   },
 

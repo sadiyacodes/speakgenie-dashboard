@@ -2,7 +2,7 @@ import { User, Mail, Phone } from "lucide-react";
 
 export default function ProfileSettings({ profile }) {
   return (
-    <form className="bg-white rounded-xl p-8 shadow border flex flex-col gap-6">
+    <form className="bg-white rounded-xl p-8 shadow  shadow-gray-400 flex flex-col gap-6">
       <h3 className="text-2xl font-bold text-gray-900 mb-4">
         Profile Settings
       </h3>
